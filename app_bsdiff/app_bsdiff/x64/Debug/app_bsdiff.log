@@ -1,0 +1,34 @@
+﻿生成启动时间为 2016/9/12 19:07:25。
+     1>项目“E:\WorkSpace\VSWork\app_bsdiff\app_bsdiff\app_bsdiff.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Visual Studio2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl- /Od /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt blocksort.c bzlib.c compress.c crctable.c decompress.c huffman.c randtable.c
+         randtable.c
+         huffman.c
+         decompress.c
+         crctable.c
+         compress.c
+     1>compress.c(205): warning C4244: “=”: 从“__int64”转换到“Int32”，可能丢失数据
+         bzlib.c
+     1>bzlib.c(998): warning C4267: “=”: 从“size_t”转换到“Int32”，可能丢失数据
+     1>bzlib.c(1057): warning C4267: “=”: 从“size_t”转换到“Int32”，可能丢失数据
+     1>bzlib.c(1192): warning C4267: “=”: 从“size_t”转换到“Int32”，可能丢失数据
+         blocksort.c
+         正在生成代码...
+         D:\Visual Studio2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl- /Od /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt bsdiff.cpp
+         bsdiff.cpp
+       Link:
+         D:\Visual Studio2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\WorkSpace\VSWork\app_bsdiff\x64\Debug\app_bsdiff.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\WorkSpace\VSWork\app_bsdiff\x64\Debug\app_bsdiff.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\WorkSpace\VSWork\app_bsdiff\x64\Debug\app_bsdiff.lib" /MACHINE:X64 /DLL x64\Debug\blocksort.obj
+         x64\Debug\bsdiff.obj
+         x64\Debug\bzlib.obj
+         x64\Debug\compress.obj
+         x64\Debug\crctable.obj
+         x64\Debug\decompress.obj
+         x64\Debug\huffman.obj
+         x64\Debug\randtable.obj
+            正在创建库 E:\WorkSpace\VSWork\app_bsdiff\x64\Debug\app_bsdiff.lib 和对象 E:\WorkSpace\VSWork\app_bsdiff\x64\Debug\app_bsdiff.exp
+         app_bsdiff.vcxproj -> E:\WorkSpace\VSWork\app_bsdiff\x64\Debug\app_bsdiff.dll
+     1>已完成生成项目“E:\WorkSpace\VSWork\app_bsdiff\app_bsdiff\app_bsdiff.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.95

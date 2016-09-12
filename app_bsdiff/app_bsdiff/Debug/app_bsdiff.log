@@ -1,0 +1,29 @@
+﻿生成启动时间为 2016/9/10 10:43:04。
+     1>项目“E:\WorkSpace\VSWork\app_bsdiff\app_bsdiff\app_bsdiff.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Visual Studio2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "G:\08_22_NDK\bsdiff4.3-win32-src\blocksort.c" "G:\08_22_NDK\bsdiff4.3-win32-src\bzlib.c" "G:\08_22_NDK\bsdiff4.3-win32-src\compress.c" "G:\08_22_NDK\bsdiff4.3-win32-src\crctable.c" "G:\08_22_NDK\bsdiff4.3-win32-src\decompress.c" "G:\08_22_NDK\bsdiff4.3-win32-src\huffman.c" "G:\08_22_NDK\bsdiff4.3-win32-src\randtable.c"
+         randtable.c
+         huffman.c
+         decompress.c
+         crctable.c
+         compress.c
+         bzlib.c
+         blocksort.c
+         正在生成代码...
+         D:\Visual Studio2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "G:\08_22_NDK\bsdiff4.3-win32-src\bsdiff.cpp"
+         bsdiff.cpp
+       Link:
+         D:\Visual Studio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\WorkSpace\VSWork\app_bsdiff\Debug\app_bsdiff.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\WorkSpace\VSWork\app_bsdiff\Debug\app_bsdiff.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\WorkSpace\VSWork\app_bsdiff\Debug\app_bsdiff.lib" /MACHINE:X86 Debug\blocksort.obj
+         Debug\bsdiff.obj
+         Debug\bzlib.obj
+         Debug\compress.obj
+         Debug\crctable.obj
+         Debug\decompress.obj
+         Debug\huffman.obj
+         Debug\randtable.obj
+         app_bsdiff.vcxproj -> E:\WorkSpace\VSWork\app_bsdiff\Debug\app_bsdiff.exe
+     1>已完成生成项目“E:\WorkSpace\VSWork\app_bsdiff\app_bsdiff\app_bsdiff.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.06
